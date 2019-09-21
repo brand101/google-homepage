@@ -1,20 +1,69 @@
-
+button {
+	padding: 0;
+  	border: none;
+ 	font: inherit;
+ 	color: inherit;
+ 	background-color: transparent;
+   	cursor: pointer;
+}
 
 .nav-bar {
-	font-size: 13px;
-	font-family: arial, sans-serif;
-	list-style-type: none;
-	display: inline-block;
-	padding-left: 15px;
-	opacity: 0.75;
-	color: #222;
-	cursor: pointer;
-}
-.nav-left{
-	display: inline;
-	padding-left: 15px;
-}
-.nav-links {
 	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	vertical-align: middle;
+	top: 16px;
+	padding-left: 15px;
+	margin: 0px;
 	
 }
+
+.nav-right{
+	display: inline;
+	float: right;
+	}
+
+.nav-links {
+	text-decoration: none;
+	color: #222;
+	opacity: 0.75;
+	width: 100%;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	cursor: pointer;
+	}
+
+.nav-links:hover {
+	text-decoration: underline;
+}
+
+.apps {
+	padding-left: 15px;
+	vertical-align: middle;
+	opacity:  0.55;
+	cursor: pointer;
+}
+
+.apps:hover {
+	opacity: 1;
+}
+
+#signin {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+	background-color: #4285f4;
+	border-color: #4285f4;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	cursor: default;
+}
+
+
+
